@@ -1,39 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Repositorio-Github</title>
-    <link rel="stylesheet" href="styles/styles.css" />
 
-    <script
-      src="https://kit.fontawesome.com/99b1b95bb1.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Repositorio-Github</title>
+  <link rel="stylesheet" href="styles/styles.css" />
 
-  <body>
-    <div class="container">
-      <header class="header-app">
-        <img src="images/logo.svg" />
-        <a href="#" id="clean-storage"> Limpar Storage </a>
-      </header>
-      <h1>Explore repositório no github</h1>
+  <script src="https://kit.fontawesome.com/99b1b95bb1.js" crossorigin="anonymous"></script>
+</head>
 
-      <form id="form">
-        <input
-          type="text"
-          placeholder="Digite o nome do repostório Ex.:(autor/nome do repositório)"
-          id="input"
-        />
-        <button type="submit" id="search">Pesquisar</button>
-      </form>
-      <span id="error" class="error">autor/nome do repositório</span>
-      <div class="repositories" id="repository">
-        <!-- Repositórios -->
-      </div>
+<body>
+  <div class="container">
+    <header class="header-app">
+      <img src="images/logo.svg" />
+      <a href="#" id="clean-storage"> Limpar Storage </a>
+    </header>
+    <h1>Explore repositório no github</h1>
+
+    <form id="form">
+      <input type="text" placeholder="Ex.:(autor/nome do repositório)" id="input" />
+      <button type="submit" id="search">Pesquisar</button>
+    </form>
+    <span id="error" class="error">autor/nome do repositório</span>
+    <div class="repositories" id="repository">
+      <!-- Repositórios -->
     </div>
+  </div>
 
-    <script src="js/index.js"></script>
-  </body>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
